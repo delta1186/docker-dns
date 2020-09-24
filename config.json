@@ -1,0 +1,11 @@
+{
+  "port": 53,
+  "external_dns": [
+    "8.8.4.4",
+    "8.8.8.8"
+  ],
+  "fallback_timeout": 350,
+  "domains": {
+    ".test$": "127.0.0.1"
+  }
+}

@@ -1,0 +1,10 @@
+version: '0.1.0'
+services:
+  docker-dns:
+    image: docker-dns:latest
+    build: .
+    tty: true
+    stdin_open: true
+    restart: always
+    ports:
+      - 53:53/udp
